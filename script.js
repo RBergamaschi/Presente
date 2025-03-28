@@ -17,7 +17,7 @@ setInterval(() => {
 
 // === Contador de Tempo (Horário de Brasília) ===
 function atualizarContador() {
-    const dataEvento = new Date('2024-10-28T00:00:00-03:00')
+    const dataEvento = new Date('2024-09-28T00:00:00-03:00')
     const agora = new Date();
     
     // Ajusta para o fuso de Brasília (UTC-3)
